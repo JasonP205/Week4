@@ -1,18 +1,59 @@
-form {
-    margin-top: 20px;
+body {
+    background-color: #d4ebf2; /* Pastel Blue */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: #ffcc99; /* Pastel Orange */
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    color: #666;
+}
+
+.checkbox-container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 191, 126);
-    border-radius: 15px;
-    width: 700px;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    margin: 10px 0;
+}
+
+#Ac {
+    margin-right: 8px;
+}
+
+#submit {
+    background-color: #ff944d; /* Đậm hơn pastel orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    background-color: #ff7733;
 }
